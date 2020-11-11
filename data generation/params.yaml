@@ -1,0 +1,26 @@
+# Team creation
+NB_EMPLOYEES: 10000
+teams: ['sales', 'product', 'communication', 'finance']
+team_probs: [0.3, 0.4, 0.1, 0.2]
+
+#Social dimensions
+criteria: ['gender', 'age', 'language']
+genders: ['M', 'F', 'O']
+gender_probs: [0.7, 0.28, 0.02]
+language: ['fr', 'de', 'en', 'it']
+language_probs: [0.2, 0.7, 0.08, 0.02]
+age: ['20s', '30s', '40s', '50s']
+age_probs: [0.15, 0.25, 0.45, 0.15]
+
+
+#Objective strategy
+metrics: ['fairness', 'diversity']
+target_levels: [0.75, 0.8, 0.85, 0.9, 0.95]
+importance_levels: [[0.33, 0.33, 0.33], [0.5, 0.25, 0.25], [0.25, 0.5, 0.25],[0.25, 0.25, 0.5]]
+
+
+#Sourcing parameters
+NB_CANDIDATES: 5000
+NB_JOBS: 150
+NB_RECRUITERS: 20
+PROB_TRANSFER: 0.4
